@@ -9,7 +9,7 @@ function App() {
           <img src="/images/tech-space-logo.png" alt="Logo de Techspace" class=" h-24 mr-5"/>
           <NavBar/>
       </header>
-      <ItemListContainer greeting="Welcome to TechSpace Store!" />
+      <ItemListContainer greeting="Bienvenido a la tienda de TechSpace!" />
     </>
   )
 }
