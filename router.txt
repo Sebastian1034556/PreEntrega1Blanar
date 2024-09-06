@@ -1,0 +1,15 @@
+REACT-ROUTER-DOM
+
+<BrowserRouter>
+    <Routes>
+        <Route/>
+        <Route/>
+        <Route/>
+        <Route/>
+        <Route/>
+
+    </Routes>
+</BrowserRouter>
+
+
+EXACT

@@ -1,0 +1,24 @@
+HOOKS
+
+básicos: 
+
+. useState para crear un estado.
+
+.useEffect: para sincronizar componentes con sistemas externos.
+
+.useContext: para crear un contexto.
+
+adicionales:
+
+. useReducer
+.useCallback
+.useMemo
+.useRef
+.useImperativeHandle
+.useLayoutEffect
+.useDebugValue
+.useDeferredValue
+.useTransition
+.useId
+
+

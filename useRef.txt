@@ -1,0 +1,31 @@
+useREF
+
+Lo utilizo cuando quiero analizar con fines estadísticos cuantas veces un usuario interactuó con mi componente. Cuenta cuantas veces se
+hizo click (en nuestro caso del contador).
+
+
+No se renderiza en el DOM.
+
+Se usa para darle play y pausar videos y audios.
+
+Determinar cuantas veces se ha renderizado un elemento.
+
+
+3 opciones para utilizarla:
+    a) useEffect(fn)       =>    se aplica a todos los estados
+    
+    b) useEffect(fn,[])       =>    con ningún estado
+    
+    c) useEffect(fn,[estado1 , estado2 , estado3 ])       =>    se aplica solo a los estados definidos
+
+b)
+Se usa cuando es su primer renderizado.
+
+Aprender clearInterval cuando vas con setInterval.
+
+
+PARA AGREGAR ELEMENTOS DEL DOM COMO SI FUERA UN getElementById o un querySelector:
+
+const inputReference = useRef(null)
+
+<input ref={inputReference}/>

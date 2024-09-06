@@ -1,0 +1,11 @@
+useEffect
+
+Nos permite controlar efectos secundarios provocados por cambios de estados. Se utiliza por ejemplo para que al re-renderizar
+componentes que consuman una api no se vuelva a consumir la misma innecesariamente.
+
+
+1° Argumento:
+    Función de callback con acciones a ejecutar.
+
+2° Argumento:
+    Array de dependencias que indicará qué estados deben cambiar para que se vuelva a ejecutar la función del primer argumento. 
